@@ -11,8 +11,8 @@ VALUES
 ('Software Engineer', 120000, 1),
 ('Accountant', 100000, 2), 
 ('Finanical Analyst', 150000, 2),
-('Salesperson', 70000, 3), 
-('Sales Lead', 90000, 3),
+('Sales Lead', 90000, 3), 
+('Salesperson', 70000, 3),
 ('Legal Team Lead', 100000, 4),
 ('Lawyer', 180000, 4);
 
