@@ -49,59 +49,59 @@ const startPrompt = () => {
         const { choices } = answers; 
   
         if (choices === "View All Employees") {
-          showEmployees();
+            showEmployees();
         }
   
         if (choices === "View All Employees By Department") {
-          employeeDepartment();
+            employeeDepartment();
         }
 
         if (choices === "Add Employee") {
-          addEmployee();
+            addEmployee();
         }
   
         if (choices === "Delete Employee") {
-          deleteEmployee();
+            deleteEmployee();
         }
   
         if (choices === "Update Employee Role") {
-          updateEmployee();
+            updateEmployee();
         }
   
         if (choices === "Update Employee Manager") {
-          updateManager();
+            updateManager();
         }
   
         if (choices === "View All Roles") {
-          showRoles();
+            showRoles();
         }
   
         if (choices === "Add Role") {
-          addRole();
+            addRole();
         }
   
         if (choices === "Delete Role") {
-          deleteRole();
+            deleteRole();
         }
   
         if (choices === "View All Departments") {
-          showDepartments();
+            showDepartments();
         }
   
         if (choices === "Add Department") {
-          addDepartment();
+            addDepartment();
         }
   
         if (choices === "Delete Department") {
-          deleteDepartment();
+            deleteDepartment();
         }
 
         if (choices === "View Total Department Budgets") {
-          viewBudget();
+            viewBudget();
         }
   
         if (choices === "Quit") {
-          connection.end()
+            connection.end()
         };
     });
 };
@@ -125,7 +125,7 @@ showEmployees = () => {
       console.table(rows);
       startPrompt();
     });
-};
+},
 
 employeeDepartment = () => {
     const sql = `SELECT employee.first_name, 
