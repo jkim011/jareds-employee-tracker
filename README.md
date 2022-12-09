@@ -20,10 +20,10 @@
   In the command line: Run "npm i"
 
   ## Usage
-  Walkthrough video: 
+  **Walkthrough video:** [jareds-employee-trackerVIDEO.webm](https://user-images.githubusercontent.com/112585959/206618725-4aa6c8e4-6657-4159-8378-8c4d4dc078f9.webm) <br>
 
-  In the command line:
-    Start mysql <br>
+  **In the command line:** <br>
+    Start mysql with "mysql -u root -p" <br>
     Run "SOURCE db/schema.sql" and "SOURCE db/seed.sql" <br>
     Exit mysql <br>
     Start app with "npm start" 
